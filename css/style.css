@@ -1,0 +1,124 @@
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #444;
+  height: 100%;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.nav {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.continer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.continer .delta-class {
+  padding-top: 10px;
+  margin-left: 3px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.div-nav {
+  width: 100%;
+  display: contents;
+  margin-top: 12px;
+}
+
+.div-nav .menu {
+  margin-top: inherit;
+}
+
+.div-nav .menu a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 20px;
+  line-height: 70px;
+  font-size: 15px;
+}
+
+.div-nav .menu a:hover {
+  color: #56bc94;
+}
+
+label {
+  font-size: 25px;
+  line-height: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  display: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .menu {
+    text-align: left;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    width: 100%;
+    margin: auto auto auto 20px;
+    text-align: left;
+  }
+  .parent-taggle {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: auto;
+  }
+  .parent-taggle label {
+    display: inline;
+    cursor: pointer;
+  }
+  .continer {
+    margin-top: auto;
+    margin-left: 20px;
+    margin-bottom: auto;
+  }
+  #toggle:checked + * .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #toggle:checked + * .label-toggle {
+    border: 2px solid #87CEEB;
+  }
+  header {
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  }
+}
+/*# sourceMappingURL=style.css.map */
