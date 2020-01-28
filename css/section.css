@@ -1,0 +1,211 @@
+section {
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.main-div {
+  background-image: url("../pattern-1.png");
+  width: 100%;
+}
+
+.main-div .title-in-main-div {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 80px;
+  font-size: 1.9rem;
+  opacity: .9;
+  width: 100%;
+}
+
+.continer-cards {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 60px;
+}
+
+.item-cards {
+  margin-left: 25px;
+}
+
+.popular-div {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  overflow: hidden;
+}
+
+.popular-div span {
+  width: 225px;
+  padding: 15px 0;
+  background-color: #3fa07a;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -25px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  text-align: center !important;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.popular-div::after, .popular-div::before {
+  content: '';
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #225742;
+  border-left: 5px solid #225742;
+  position: absolute;
+}
+
+.popular-div::before {
+  bottom: 0;
+  right: 0;
+}
+
+.popular-div::after {
+  top: 0;
+  left: 0;
+}
+
+.head-item {
+  margin: auto;
+  height: 140px;
+  width: 350px;
+  background-color: #c4e7d9;
+  position: absolute;
+}
+
+.head-item .title-item {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 25px;
+  font-weight: lighter;
+}
+
+.head-item .circle-item {
+  background-color: #56bc94;
+  height: 120px;
+  width: 120px;
+  border: solid 5px #9fd9c2;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 30px;
+  color: white;
+  position: relative;
+}
+
+.head-item .circle-item .text-in-circle {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.head-item .circle-item .dollar-circle {
+  top: -5px;
+  position: relative;
+}
+
+.head-item .circle-item .number-circle {
+  font-size: 27px;
+  margin-left: -5px;
+}
+
+.head-item .circle-item .per-month {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#one-three-cards {
+  padding-top: 20px;
+}
+
+#second-item {
+  height: 160px;
+}
+
+#second-content-item {
+  height: 570px;
+}
+
+#second-list-content {
+  padding-top: 270px;
+}
+
+#second-circle-item {
+  margin-top: 50px;
+}
+
+.content-item {
+  background-color: white;
+  width: 350px;
+  height: 530px;
+  margin-top: -16px;
+  margin-bottom: 10px;
+}
+
+.content-item .list-content {
+  list-style: none;
+  text-align: center;
+  padding-top: 250px;
+  padding-left: 0px;
+}
+
+.content-item .list-content li {
+  border-bottom: 1px solid #efefef;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.content-item .btn-sign {
+  color: white;
+  text-decoration: none;
+  background: #56bc94;
+  border: 1px solid #56bc94;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+  margin-right: 5px;
+  color: #56bc94;
+  width: 1em;
+}
+
+.fa-w-11 {
+  color: #999999;
+}
+
+.li-dis {
+  color: #999999;
+}
+/*# sourceMappingURL=section.css.map */
