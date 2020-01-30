@@ -1,3 +1,3 @@
-css/*.css
-css/*.css.map
-*.css
+
+dist
+node_modules
