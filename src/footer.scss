@@ -1,0 +1,87 @@
+.contact{
+    background-color: #56bc94;
+    color:white;
+    margin-bottom: 20px;
+ }
+ .container-contact
+ {
+     background-image:url('../pattern-1.png');
+     text-align: center;
+     padding:30px 0px;
+     font-weight: 500;
+     line-height: 1.2;
+     box-sizing: border-box;
+ }
+ .paragraph-contact
+ {
+     display: flex;
+     justify-content: center;
+     max-width: 50%;
+     margin-left:auto;
+     margin-right:auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+    p
+    {
+     text-align:center;
+     font-size: 16px;
+     font-weight:500;
+    }
+ }
+ 
+ .contact-list{
+    list-style: none;
+    text-align: center;
+    padding-top:auto;
+    padding-left: 0px;
+    color: #317b5e;
+    li{
+        padding: 5px;
+     }
+    }
+ .fa-w-16
+ {
+     color:#317b5e;
+ }
+ .form
+ {
+     text-align: center;
+     input[type=text] {
+        width: 50%;
+        padding: 10px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 17px;
+      }
+      #name,#email{
+          margin-bottom: 20px;
+      }
+      textarea{
+        width: 50%;
+        height: 140px;
+        padding: 10px 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 17px;
+      }
+      .btn-sub
+      {
+        background-color: #317b5e;
+        margin-top: 15px;
+        border: 1px solid #56bc94;
+        color: #fff;
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem;
+      }
+ }
